@@ -1,9 +1,7 @@
 import { FlatList, StyleSheet} from 'react-native'
-
-import Search from '../Components/Search'
-import ProductItem from '../Components/ProductItem'
+import Search from '../Componentes/Search'
+import ProductItem from '../Componentes/ProductItem'
 import { useEffect, useState } from 'react'
-
 import { useGetProductsQuery } from '../app/services/shopServices'
 
 
