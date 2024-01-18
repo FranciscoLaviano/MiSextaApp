@@ -5,7 +5,7 @@ import SubmitButton from '../Componentes/SubmitButton'
 import { useSignupMutation } from '../app/services/Auth'
 import { useDispatch } from 'react-redux'
 import { setUser } from '../funciones/auth/AuthSlice'
-import { signupSchema } from '../validations/signupSchema'
+import { signupSchema } from '../validacion/SignupSchema'
 
 const SignUp = ({navigation}) => {
   const dispatch = useDispatch()

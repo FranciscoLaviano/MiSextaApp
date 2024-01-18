@@ -2,9 +2,9 @@ import {useEffect, useState } from 'react'
 import { StyleSheet, Image, View } from 'react-native'
 import AddButton from '../Componentes/AddButton'
 import * as ImagePicker from 'expo-image-picker'
-import { usePostProfileImageMutation } from '../app/services/shopServices'
+import { usePostProfileImageMutation } from '../app/services/ShopService'
 import { useSelector } from 'react-redux'
-import { useGetProfileImageQuery } from '../app/services/shopServices'
+import { useGetProfileImageQuery } from '../app/services/ShopService'
 
 
 const ImageSelector = ({navigation}) => {

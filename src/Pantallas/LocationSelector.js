@@ -4,7 +4,7 @@ import AddButton from '../Componentes/AddButton'
 import * as Location from 'expo-location'
 import MapPreview from '../Componentes/VistaMapa'
 //import { googleApi } from '../firebase/googleApi'
-import {usePostUserLocationMutation } from '../app/services/shopServices'
+import {usePostUserLocationMutation } from '../app/services/ShopService'
 import { useSelector } from 'react-redux'
 
 const LocationSelector = ({navigation}) => {

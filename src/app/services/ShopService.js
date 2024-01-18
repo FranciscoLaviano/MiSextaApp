@@ -1,5 +1,5 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react'
-import { base_url } from '../firebase/database/base_url'
+import { base_url } from '../firebase/db/base_url'
 
 
 export const shopApi = createApi({

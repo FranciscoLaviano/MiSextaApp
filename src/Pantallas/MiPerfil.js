@@ -1,6 +1,6 @@
 import { StyleSheet, View,Image,Text } from 'react-native'
-import AddButton from '../Components/AddButton'
-import { useGetProfileImageQuery, useGetUserLocationQuery } from '../app/services/shopServices'
+import AddButton from '../Componentes/AddButton'
+import { useGetProfileImageQuery, useGetUserLocationQuery } from '../app/services/ShopService'
 import { useSelector } from 'react-redux'
 
 const MyProfile = ({navigation}) => {

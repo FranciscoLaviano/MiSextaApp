@@ -1,6 +1,6 @@
 import { StyleSheet, Text,Image,useWindowDimensions, Pressable } from 'react-native'
 import {  useDispatch } from 'react-redux'
-import { setProductSelected } from '../features/shop/shopSlice'
+import { setProductSelected } from '../funciones/shop/shopSlice'
 
 const ProductItem = ({item ,navigation,route }) => {
 

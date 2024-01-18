@@ -1,6 +1,6 @@
 import { FlatList, StyleSheet} from 'react-native'
 import CategoryItem from './CategoryItem'
-import { useGetCategoriesQuery } from '../app/services/shopServices'
+import { useGetCategoriesQuery } from '../app/services/ShopService'
 
 
 const Categories = ({navigation,route}) => {
