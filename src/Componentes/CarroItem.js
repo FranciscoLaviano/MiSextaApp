@@ -36,12 +36,12 @@ const styles = StyleSheet.create({
     },
     text1:{
         fontSize:19,
-        color:colors.lightGray,
+        color:'#B3C4BC',
         fontFamily:"Josefin"
     },
     text2:{
         fontSize:17,
-        color:colors.lightGray,
+        color:'#B3C4BC',
         fontFamily:"Josefin"
     }
 

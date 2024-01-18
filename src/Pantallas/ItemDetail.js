@@ -77,7 +77,7 @@ const styles = StyleSheet.create({
       fontSize:30
      },
      buyNow:{
-      backgroundColor:colors.green1,
+      backgroundColor:'#7AF5B9',
       paddingVertical:5,
       paddingHorizontal:10,
       borderRadius:5
