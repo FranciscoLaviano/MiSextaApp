@@ -4,12 +4,12 @@ import { useGetCategoriesQuery } from '../app/services/ShopService'
 
 
 const Categories = ({navigation,route}) => {
-  const {data:categories} = useGetCategoriesQuery()
+  const {data:categorias} = useGetCategoriesQuery()
 
   return (
     <FlatList
         style={styles.container}
-        data={categories}
+        data={categorias}
         keyExtractor={item => item}
         renderItem={({item}) => <CategoryItem  category={item} navigation={navigation} route={route}/>}
     />
