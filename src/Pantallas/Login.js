@@ -27,7 +27,7 @@ const Login = ({navigation}) => {
   return (
     <View style={styles.main}>
       <View style={styles.container}>
-          <Text style={styles.title} >Login to start</Text>
+          <Text style={styles.title} >Login para comprar</Text>
           <InputForm
             label="Email"
             value={email}
@@ -43,7 +43,7 @@ const Login = ({navigation}) => {
             error=""
           />
           <SubmitButton onPress={onSubmit} title="Send"/>
-          <Text style={styles.sub}>Not have an account?</Text>
+          <Text style={styles.sub}>¿Aún no tienes cuenta?</Text>
           <Pressable onPress={()=> navigation.navigate("SignUp")} >
               <Text style={styles.subLink}>Sign up</Text>
           </Pressable>
