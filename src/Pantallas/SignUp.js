@@ -1,8 +1,8 @@
 import {useEffect, useState } from 'react'
 import { View, Text ,StyleSheet, Pressable} from 'react-native'
-import InputForm from '../Components/InputForm'
-import SubmitButton from '../Components/SubmitButton'
-import { useSignupMutation } from '../app/services/auth'
+import InputForm from '../Componentes/InputForm'
+import SubmitButton from '../Componentes/SubmitButton'
+import { useSignupMutation } from '../app/services/Auth'
 import { useDispatch } from 'react-redux'
 import { setUser } from '../features/auth/authSlice'
 import { signupSchema } from '../validations/signupSchema'
@@ -78,7 +78,7 @@ const SignUp = ({navigation}) => {
           />
           <SubmitButton title="Send" onPress={onSubmit}  
           />
-          <Text style={styles.sub}>Alredy have an account?</Text>
+          <Text style={styles.sub}>¿Ya tenes tu cuenta?</Text>
           <Pressable onPress={()=> navigation.navigate("Login")}>
               <Text style={styles.subLink}>Login</Text>
           </Pressable>

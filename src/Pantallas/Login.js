@@ -2,7 +2,7 @@ import {useState ,useEffect} from 'react'
 import { View, Text ,StyleSheet, Pressable} from 'react-native'
 import InputForm from '../Components/InputForm'
 import SubmitButton from '../Components/SubmitButton'
-import { useLoginMutation } from '../app/services/auth'
+import { useLoginMutation } from '../app/services/Auth'
 import { useDispatch } from 'react-redux'
 import { setUser } from '../features/auth/authSlice'
 
