@@ -15,7 +15,7 @@ const  App = () => {
   
   return (
     <>
-      <StatusBar backgroundColor={colors.green1}/>
+      <StatusBar backgroundColor={'#ffff99'}/>
       <Provider store={store}>
         <MainNavigator/>
       </Provider>
