@@ -42,7 +42,7 @@ const Login = ({navigation}) => {
             isSecure={true}
             error=""
           />
-          <SubmitButton onPress={onSubmit}  title="Iniciar"/>
+          <SubmitButton onPress={onSubmit}  title="Anotarme"/>
           <Text style={styles.sub}>¿Aún no tienes cuenta?</Text>
           <Pressable onPress={()=> navigation.navigate("SignUp")} >
               <Text style={styles.subLink}>Registrarse</Text>

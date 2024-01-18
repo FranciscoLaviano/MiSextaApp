@@ -100,7 +100,7 @@ const styles = StyleSheet.create({
     },
     container:{
       width:"90%",
-      backgroundColor:'#e2fc83',
+      backgroundColor:'#ffffb3',
       gap:15,
       borderRadius:10,
       justifyContent:"center",
@@ -124,8 +124,5 @@ const styles = StyleSheet.create({
       color:"blue"
          
     },
-    inicio:{
-      backgroundColor:'#011703',
-      color:'#683133'
-    }
+    
 })
