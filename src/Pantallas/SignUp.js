@@ -4,7 +4,7 @@ import InputForm from '../Componentes/InputForm'
 import SubmitButton from '../Componentes/SubmitButton'
 import { useSignupMutation } from '../app/services/Auth'
 import { useDispatch } from 'react-redux'
-import { setUser } from '../features/auth/authSlice'
+import { setUser } from '../funciones/auth/AuthSlice'
 import { signupSchema } from '../validations/signupSchema'
 
 const SignUp = ({navigation}) => {

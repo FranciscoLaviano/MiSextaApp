@@ -1,5 +1,5 @@
 import { StyleSheet, Text,Pressable } from 'react-native'
-import { colors } from '../Global/colors'
+
 
 
 const SubmitButton = ({title,onPress}) => {

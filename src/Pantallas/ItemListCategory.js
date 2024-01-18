@@ -1,8 +1,8 @@
 import { FlatList, StyleSheet} from 'react-native'
-import Search from '../Componentes/Search'
-import ProductItem from '../Componentes/ProductItem'
+import Search from '../Componentes/Busqueda'
+import ProductItem from '../Componentes/ProductoItem'
 import { useEffect, useState } from 'react'
-import { useGetProductsQuery } from '../app/services/shopServices'
+import { useGetProductsQuery } from '../app/services/ShopService'
 
 
 const ItemListCategories = ({navigation,route}) => {

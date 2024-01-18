@@ -2,7 +2,7 @@ import { StyleSheet, Text, View,FlatList, Pressable } from 'react-native'
 import CarroItem from '../Componentes/CarroItem'
 import { useSelector } from 'react-redux'
 import { useEffect } from 'react'
-import { usePostOrdersMutation } from '../app/services/shopServices'
+import { usePostOrdersMutation } from '../app/services/ShopService'
 
 const Carro = () => {
 
