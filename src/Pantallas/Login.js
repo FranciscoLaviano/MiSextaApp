@@ -42,10 +42,10 @@ const Login = ({navigation}) => {
             isSecure={true}
             error=""
           />
-          <SubmitButton onPress={onSubmit} title="Send"/>
+          <SubmitButton onPress={onSubmit}  title="Iniciar"/>
           <Text style={styles.sub}>¿Aún no tienes cuenta?</Text>
           <Pressable onPress={()=> navigation.navigate("SignUp")} >
-              <Text style={styles.subLink}>Sign up</Text>
+              <Text style={styles.subLink}>Registrarse</Text>
           </Pressable>
       </View>
     </View>
@@ -60,7 +60,8 @@ const styles = StyleSheet.create({
     main:{
       flex:1,
       justifyContent:"center",
-      alignItems:"center"
+      alignItems:"center",
+      
     },
     container:{
       width:"90%",
@@ -77,11 +78,14 @@ const styles = StyleSheet.create({
     },
     sub:{
       fontSize:14,
-      fontFamily:"Josefin"
+      fontFamily:"Josefin",
+      
     },
     subLink:{
       fontSize:14,
       fontFamily:"Josefin",
       color:"blue"
-    }
+     
+    },
+    
 })
