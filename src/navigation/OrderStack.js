@@ -16,7 +16,7 @@ const OrdersStack = () => {
             }
         }
     >
-        <Stack.Screen name="Orders" component={Orders} />
+        <Stack.Screen name="Ordenes" component={Ordenes} />
     </Stack.Navigator>
   )
 }

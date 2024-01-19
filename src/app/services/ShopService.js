@@ -7,13 +7,13 @@ export const shopApi = createApi({
   baseQuery: fetchBaseQuery({ baseUrl: base_url }),
   tagTypes:["image","location"],
   endpoints: (builder) => ({
-    getProductos: builder.query({
-      query: (categoria) => `productos.json?orderBy="category"&equalTo="${categoria}"`,
+    getProducts: builder.query({
+      query: (category) => `catalogo.json?orderBy="category"&equalTo="${category}"`,
     }),
-    getProducto: builder.query({
-        query:(id)=> `productos/${id}.json`
+    getProduct: builder.query({
+        query:(id)=> `catalogo/${id}.json`
     }),
-    getCategorias : builder.query({
+    getCategories : builder.query({
         query: () => "categorias.json"
     }),
     postOrders: builder.mutation({

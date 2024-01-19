@@ -4,7 +4,7 @@ import allCategories from "../../Data/categorias.json"
 
 const initialState = {
     value:{
-        productos: allProductos,
+        products: allProductos,
         categories:allCategories,
         productSelected:{},
         productsFilteredByCategory:[]

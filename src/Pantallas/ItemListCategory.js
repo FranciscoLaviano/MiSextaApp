@@ -16,7 +16,7 @@ const ItemListCategories = ({navigation,route}) => {
   useEffect(()=>{
       if(!isLoading) {
         const dataArray = Object.values(data)
-        const productsFiltered = dataArray.filter(product => product.title.includes(keyword))
+        const productsFiltered = dataArray.filter(producto => producto.title.includes(keyword))
         setProducts(productsFiltered)
       }
 
