@@ -5,7 +5,7 @@ import {AntDesign , Entypo} from "@expo/vector-icons"
 
 
 
-const Busqueda = ({setKeyword}) => {
+const Search = ({setKeyword}) => {
 
     const [input,setInput] = useState("")
     const [error,setError] = useState("")
@@ -43,7 +43,7 @@ const Busqueda = ({setKeyword}) => {
   )
 } 
 
-export default Busqueda
+export default Search
 const styles = StyleSheet.create({
     container:{
         backgroundColor:'#ECE67F',

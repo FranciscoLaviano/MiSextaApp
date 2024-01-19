@@ -16,7 +16,7 @@ const initialState = {
     initialState,
     reducers:{
         setProductsFilteredByCategory: (state,actions) => {
-            state.value.productsFilteredByCategory = state.value.products.filter(product => product.category == actions.payload)
+            state.value.productsFilteredByCategory = state.value.products.filter(product => product.categorias == actions.payload)
         },
         setProductSelected: (state,actions) =>{
             state.value.productSelected = state.value.products.find(product => product.id ===actions.payload)
