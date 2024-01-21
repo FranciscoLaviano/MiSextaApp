@@ -21,7 +21,7 @@ export const cartSlice = createSlice({
       if(foundItem) foundItem.quantity++
       else state.value.items.push({...action.payload,quantity:1})
 
-      state.value.total = state.value.items.reduce((acc,item)=> acc + (item.price * item.quantity),0)
+      state.value.total = state.value.items.reduce((acc,item)=> acc + (item.precio * item.quantity),0)
       state.value.updateAt = new Date().toLocaleString()
     },
     removeItem:() =>{

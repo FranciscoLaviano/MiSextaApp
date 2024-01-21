@@ -4,7 +4,7 @@ import {Feather} from "@expo/vector-icons"
 
 const OrderItem = ({order}) => {
     const total = order.items
-        .reduce((acc,product)=> acc + (product.price * product.quantity),0)
+        .reduce((acc,product)=> acc + (product.precio * product.quantity),0)
 
   return (
     <View style={styles.container}>
